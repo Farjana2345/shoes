@@ -1,0 +1,112 @@
+
+header{
+    background-color: #fff9f4;
+    height: 650px;
+}
+.card-img-top{
+    border-radius: 15px;
+    background-color: darkgray;
+    height: 400px;
+}
+.card-img-top1{
+    border-radius: 15px;
+    
+    height: 300px;
+}
+.buttons{
+   
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+.casual-card-footer{
+    border: 0;
+    background-color: white;
+}
+.formal-card-footer{
+    border: 0;
+    background-color: white;
+}
+.exchange{
+    margin-left: 15px;
+}
+.image-size{
+    border-radius: 15px;
+}
+.name input{
+    width: 85%;
+   padding: 15px;
+   margin-left: 50px;
+   background-color:gainsboro;
+   border: 0;
+}
+.email input{
+    width:37.5%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:gainsboro;
+    border: 0;
+}
+.msg input{
+    width: 85%;
+    padding: 100px;
+    background-color:gainsboro;
+    border: 0;
+   
+}
+.form{
+    height: 500px;
+}
+.buttn{
+    border-radius: 10px;
+    background-color:orange;
+    padding: 20px;
+    font-weight: bold;
+    border: 0;
+    margin-left:100px;
+}
+.last-part{
+    background-color: #fff9f4;
+    width: 100%;
+}
+.colors{
+    color: orange;
+}
+/* responsive design */
+@media (max-width:992px){
+    .fs-2{
+        text-align: center;
+    }
+    .reverse-img{
+        flex-direction: column-reverse;
+       width: 100%;
+      
+    }
+    .size1{
+        margin-top: 30px;
+        text-align: center;
+       
+       
+    }
+    .box{
+        justify-content: center;
+      
+    }
+    .profile img{
+        width: 300px;
+    }
+    .name input{
+        width:70%;
+       padding: 15px;
+       background-color:gainsboro;
+       border: 0;
+       margin: 20px;
+    }
+    .email input{
+        width:28%;
+        padding:5px;
+        
+        background-color:gainsboro;
+        border: 0;
+    }
+}
